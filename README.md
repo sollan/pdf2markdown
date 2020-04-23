@@ -2,18 +2,17 @@ pdf2markup
 ======================
 
 ## Usage
-A script that converts (ppt-like) pdf to mark-up style text with headers and bullet points. I use it to get my pdf lecture slides into markup-enabled notebooks (e.g., Simplenote). 
+A script that converts (ppt-like) pdf to mark-up style text with headers and bullet points. I use it to get my pdf lecture slides into markup-enabled notebooks (e.g., Simplenote). The first line on each page is by default the header, lines broken up by a narrow column are merged, and special characters at the beginning of lines are converted to bullet point "-")
 
 ## Instructions:
 
 It can be run with two options:
 ### 1. automatic output: 
-- enter filename, (password), skip unwanted lines if they contain specific characters (e.g., page label "3 / 10", name of the presenter),  and whether you want to modify the text formatting (merge lines broken up by a narrow column and change special characters to bullet point "-"). It then outputs the processed result for the entire pdf file.
+- enter filename, (password), skip unwanted lines if they contain specific characters (e.g., page label "3 / 10", name of the presenter),  and whether you want to modify the text formatting. It then outputs the processed result for the entire pdf file.
 ### 2. manual specification: 
 - enter the parameters above for each page, check output, and continue to next page if you're satisfied with the output.
 
 ## Example output:
-
 
 ##### The somatic motor system controls skeletal muscles 
 Output systems of the nervous system

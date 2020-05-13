@@ -2,7 +2,7 @@ pdf2markdown
 ======================
 
 ## Usage
-A script that converts (ppt-like) pdf to markdown style text with headers and bullet points. 
+A script that converts structured pdf to markdown style text with headers and bullet points. 
 
 The first line on each page is by default the header. Lines broken up due to a narrow column are merged. Special characters at the beginning of lines, if any, are converted to bullet points ("-").
 

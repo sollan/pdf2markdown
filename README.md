@@ -1,8 +1,10 @@
-pdf2markup
+pdf2markdown
 ======================
 
 ## Usage
-A script that converts (ppt-like) pdf to mark-up style text with headers and bullet points. I use it to get my pdf lecture slides into markup-enabled notebooks (e.g., Simplenote). The first line on each page is by default the header, lines broken up by a narrow column are merged, and special characters at the beginning of lines are converted to bullet point "-")
+A script that converts (ppt-like) pdf to markdown style text with headers and bullet points. 
+
+The first line on each page is by default the header. Lines broken up due to a narrow column are merged. Special characters at the beginning of lines, if any, are converted to bullet points ("-").
 
 ## Instructions:
 
